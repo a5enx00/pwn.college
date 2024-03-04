@@ -1,0 +1,9 @@
+#!/bin/bash
+
+
+/challenge/embryoio_level13 > /tmp/smtqwm
+
+
+cat /tmp/smtqwm
+
+pwn.college{UOfOPFqDnnuEORxoUsVuBZp2T9I.QXzEDL1gjM1QzW}
