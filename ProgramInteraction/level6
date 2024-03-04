@@ -1,0 +1,7 @@
+start the program with redirect to /tmp/mriavb
+
+/challenge/embryoio_level6 > /tmp/mriavb
+
+cat /tmp/mriavb
+
+pwn.college{ACTd8lh8g4EhT_EfP03bZTokOu5.dZDL1gjM1QzW}
