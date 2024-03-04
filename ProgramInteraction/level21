@@ -1,0 +1,10 @@
+In [6]: from pwn import *
+
+In [7]: p = process(['/challenge/embryoio_level21'],env='')
+[x] Starting local process '/challenge/embryoio_level21'
+[+] Starting local process '/challenge/embryoio_level21': pid 754
+
+In [8]: p.interactive()
+
+
+pwn.college{wMYZmptxJpdGo6y-dwCWu06kR0F.QXxIDL1gjM1QzW}
