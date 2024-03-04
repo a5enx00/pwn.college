@@ -1,0 +1,12 @@
+In [1]: from pwn import *
+
+In [2]: p = process(['/challenge/embryoio_level16'])
+[x] Starting local process '/challenge/embryoio_level16'
+[+] Starting local process '/challenge/embryoio_level16': pid 411
+
+In [3]: p.interactive()
+
+
+read the password from strings and insert it
+
+pwn.college{oNnVHELnumAMVNYQb0_0-5Svydc.QX2EDL1gjM1QzW}
