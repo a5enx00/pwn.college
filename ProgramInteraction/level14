@@ -1,0 +1,7 @@
+#!/bin/bash
+
+
+env -i /challenge/embryoio_level14
+
+
+pwn.college{4Ji9cDp774iq6fWF3DTp6vZ_sTh.QX0EDL1gjM1QzW}
