@@ -1,0 +1,14 @@
+#!/usr/bin/python3
+
+from pwn import *
+
+
+p = process(['/challenge/embryoio_level27'],stdout=open('/tmp/hyylsy','w'))
+
+p.interactive()
+
+
+
+cat /tmp/hyylsy
+
+pwn.college{A7gowRnyaGDa2C7n4Ea6ggMDgdD.QX3IDL1gjM1QzW}
