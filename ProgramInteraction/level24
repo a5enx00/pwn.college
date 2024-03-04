@@ -1,0 +1,11 @@
+#!/usr/bin/python3
+
+from pwn import *
+
+
+p = process(['/challenge/embryoio_level24','njlujcqghb'])
+
+p.interactive()
+
+
+pwn.college{sy_gQ8pQERR4D6tBowCkTuM-ApQ.QX0IDL1gjM1QzW}
