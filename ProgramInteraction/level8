@@ -1,0 +1,7 @@
+touch my_script.sh
+
+#!/bin/bash
+/challenge/embryoio_level8
+
+
+bash my_script.sh
