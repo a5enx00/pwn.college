@@ -1,0 +1,13 @@
+#!/usr/bin/python3
+
+from pwn import *
+
+
+p = process(['/challenge/embryoio_level23'])
+
+p.interactive()
+
+
+insert password from strings /challenge/embryoio_level23
+
+pwn.college{8-D1T0gjT7Ce5nr_6pxQiUjUU-T.QXzIDL1gjM1QzW}
