@@ -1,0 +1,11 @@
+#!/usr/bin/python3
+
+from pwn import *
+
+
+p = process(['/challenge/embryoio_level25'],env={'iqssoo':'wabfiivwkl'})
+
+p.interactive()
+
+
+pwn.college{8NYE8rSGlBEsMvNQ607NmCKGGcD.QX1IDL1gjM1QzW}
