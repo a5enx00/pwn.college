@@ -1,0 +1,6 @@
+#!/bin/bash
+
+export anfzwf=vzsqapifsw
+/challenge/embryoio_level11
+
+pwn.college{AXqgSuWv1MRp2OsExmG5ND1ZSpr.QXxEDL1gjM1QzW}
