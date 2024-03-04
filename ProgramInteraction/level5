@@ -1,0 +1,9 @@
+Got the password from strings
+
+echo "yorlicln" > /tmp/tlvzpz
+
+start the program with stdin from /tmp/tlvzpz
+
+/challenge/embryoio_level5 < /tmp/tlvzpz 
+
+pwn.college{Aoh6uFf1jsdCBqyWhyrS7ezSXpa.dVDL1gjM1QzW}
