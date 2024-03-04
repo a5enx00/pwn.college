@@ -1,0 +1,9 @@
+make file /tmp/tgbqhi with the password from strings of the program
+
+#!/bin/bash
+
+echo "beykcype" > /tmp/tgbqhi
+/challenge/embryoio_level12 < /tmp/tgbqhi
+
+
+pwn.college{4Negkt8wAHFfYEFcYdhHGXmE-b0.QXyEDL1gjM1QzW}
