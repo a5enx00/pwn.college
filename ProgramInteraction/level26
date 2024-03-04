@@ -1,0 +1,14 @@
+#!/usr/bin/python3
+
+from pwn import *
+
+
+p = process(['/challenge/embryoio_level26'],stdin=open('/tmp/phyzqu','r'))
+
+p.interactive()
+
+
+echo "ocfdzfnu" > /tmp/phyzqu
+
+
+pwn.college{QrdxDo07nMYyCOlGVhhY2ADCSML.QX2IDL1gjM1QzW}
