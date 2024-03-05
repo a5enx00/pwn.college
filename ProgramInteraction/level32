@@ -1,0 +1,44 @@
+#include <stdio.h>
+#include <unistd.h>
+#include <sys/wait.h>
+#include <stdlib.h> // For getenv and setenv functions
+
+
+void pwncollege() {
+    printf("This is the pwncollege function!\n");
+}
+int main() {
+    // Set the environment variable
+    if (setenv("cqwqxs", "wqodsyxfsq", 1) != 0) {
+        perror("setenv");
+        return 1;
+    }
+
+    pid_t pid = fork(); // Creating a child process
+
+    if (pid == -1) {
+        // Fork failed
+        perror("fork");
+        return 1;
+    } else if (pid == 0) {
+        // Child process
+        printf("Child process\n");
+        // Execute your program from your home directory
+        char *args[] = {"/challenge/embryoio_level32", NULL};
+        execv("/challenge/embryoio_level32", args);
+        // If execv returns, it must have failed
+        perror("execv");
+        return 1;
+    } else {
+        // Parent process
+        printf("Parent process\n");
+        // You can wait for the child process to finish if needed
+        wait(NULL);
+    }
+
+    return 0;
+}
+
+
+
+pwn.college{oIAUq0deTyC_V9y103WDTJEEGOK.QXyMDL1gjM1QzW}
