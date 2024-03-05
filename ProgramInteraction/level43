@@ -1,0 +1,9 @@
+#!/bin/bash
+
+
+/challenge/embryoio_level43
+
+
+ bash my_script.sh | grep "pwn"
+
+pwn.college{4jxtDZsrVBUjJfON_avxgi-oyog.QXzQDL1gjM1QzW}
