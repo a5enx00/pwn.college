@@ -1,0 +1,8 @@
+#!/bin/bash
+
+
+cat | /challenge/embryoio_level46 
+
+
+
+pwn.college{AKPxmhBZH_hVac19pS1GjiFBT9o.QX2QDL1gjM1QzW}
