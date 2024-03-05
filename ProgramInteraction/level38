@@ -1,0 +1,4 @@
+/challenge/embryoio_level38 | sed -n '/pwn/p'
+
+
+pwn.college{Yli64YYx4XjdN4p30agIW7VJLcm.QX4MDL1gjM1QzW}
