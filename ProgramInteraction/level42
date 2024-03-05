@@ -1,0 +1,8 @@
+#!/bin/bash
+
+
+/challenge/embryoio_level42
+
+ bash my_script.sh | cat
+
+pwn.college{4badmpRK40zFAKp_2thfSMCz9s5.QXyQDL1gjM1QzW}
