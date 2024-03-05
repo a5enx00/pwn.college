@@ -1,0 +1,8 @@
+#!/bin/bash
+
+
+/challenge/embryoio_level44
+
+bash my_script.sh | sed -n '/pwn/p
+
+pwn.college{Qn2KQ_nD7oPTNsdl-ypgNA24qMz.QX0QDL1gjM1QzW}
