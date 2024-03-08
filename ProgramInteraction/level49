@@ -1,0 +1,11 @@
+In [2]: import subprocess as sp
+   ...: 
+   ...: 
+   ...: process1 = sp.Popen(['/challenge/embryoio_level49'], stdout=sp.PIPE, stderr=sp.PIPE)
+   ...: process2 = sp.Popen(['grep','pwn'], stdin=process1.stdout, stdout=sp.PIPE)
+   ...: process1.stdout.close()
+   ...: stdout, stderr = process2.communicate()
+   ...: stdout_str = stdout.decode()
+   ...: print(stdout_str)
+   ...: 
+pwn.college{IcBYs0sE_rU8Tk82F5b1r0FVTGB.QX5QDL1gjM1QzW}
