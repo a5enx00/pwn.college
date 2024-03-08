@@ -1,0 +1,13 @@
+#!/usr/bin/python3
+import subprocess as sp
+
+
+process1 = sp.Popen(['/challenge/embryoio_level57'], stdout=sp.PIPE, stderr=sp.PIPE)
+process2 = sp.Popen(['rev'], stdin=process1.stdout, stdout=sp.PIPE)
+process1.stdout.close()
+stdout, stderr = process2.communicate()
+stdout_str = stdout.decode()
+print(stdout_str)
+
+echo '}WzQ1Mjg1LDU3XQ.7p7-Udl8vSO-B3MdCXbSe5dqkGI{egelloc.nwp' | rev
+pwn.college{IGkqd5eSbXCdM3B-OSv8ldU-7p7.QX3UDL1gjM1QzW}
