@@ -1,0 +1,41 @@
+In [3]: import subprocess as sp
+   ...: 
+   ...: 
+   ...: process1 = sp.Popen(['/challenge/embryoio_level51'], stdout=sp.PIPE, stderr=sp.PIPE)
+   ...: process2 = sp.Popen(['rev'], stdin=process1.stdout, stdout=sp.PIPE)
+   ...: process1.stdout.close()
+   ...: stdout, stderr = process2.communicate()
+   ...: stdout_str = stdout.decode()
+   ...: print(stdout_str)
+:uoy fo sksa gniwollof eht sekam egnellahc sihT !EMOCLEW
+nohtypi : ssecorp tnerap cificeps a rof skcehc egnellahc eht -
+ver : tuodts fo dne rehto eht ta ssecorp cificeps a rof skcehc egnellahc eht -
+
+!SSENTAERG OT SDRAWNO
+
+.skcehc fo hcnub a mrofrep won lliw egnellahc sihT ]OFNI[
+.galf eht eviecer lliw uoy ,skcehc eseht ssap uoy fI ]OFNI[
+.ssecorp siht fo ssecorp tnerap eht no skcehc gnimrofreP ]TSET[
+.ecnatsni nohtypi evitcaretni na si ssecorp eht taht taht kcehc won lliw eW ]TSET[
+
+:sgniht wef a kcehc lliw siht ,nohtyp edisni tpircs a sa snur nohtypi ecniS ]OFNI[
+.nohtyp si flesti ssecorp eht tahT .1 ]OFNI[
+.nohtypi si nohtyp ni nur gnieb eludom eht tahT .2 ]OFNI[
+!yako eb ll'uoy ,'nohtypi' lamron a tsuj si dekcehc gnieb ssecorp eht fI ]OFNI[
+
+.8.3nohtyp/nib/rsu/ si elbatucexe 'ssecorp ehT ]OFNI[
+.)8.3nohtyp/nib/rsu/ ot 3nohtyp/nib/rsu/ ot nohtyp/nib/rsu/ morf ,elpmaxe rof( sknil cilobmys fo esuaceb detcepxe naht tnereffid eb thgim sihT ]OFNI[
+.8.3nohtyp eb tsum elbatucexe eht ,skcehc eht ssap oT ]OFNI[
+!ssecorp tnerap eht no skcehc eht dessap evah uoY ]DOOG[
+...gnikcehC .ssecorp rehtona ot tuodts ym detcerider evah dluohs uoY ]TSET[
+!ssecorp taht no skcehc gnimrofreP ]TSET[
+.ver/nib/rsu/ si elbatucexe 'ssecorp ehT ]OFNI[
+.)8.3nohtyp/nib/rsu/ ot 3nohtyp/nib/rsu/ ot nohtyp/nib/rsu/ morf ,elpmaxe rof( sknil cilobmys fo esuaceb detcepxe naht tnereffid eb thgim sihT ]OFNI[
+.ver eb tsum elbatucexe eht ,skcehc eht ssap oT ]OFNI[
+!tuodts ym fo dne rehto eht no ssecorp eht no skcehc eht dessap evah uoY ]DOOG[
+:galf ruoy si ereH .stnemeriuqer noitucexe lla deifsitas evah uoY !sseccuS ]DOOG[
+}WzQ1Mjg1LDUxXQ.2aVYXuljYvTFBTpqBwqFf94VSOI{egelloc.nwp
+
+
+echo '}WzQ1Mjg1LDUxXQ.2aVYXuljYvTFBTpqBwqFf94VSOI{egelloc.nwp' | rev
+pwn.college{IOSV49fFqwBqpTBFTvYjluXYVa2.QXxUDL1gjM1QzW}
