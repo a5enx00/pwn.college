@@ -1,0 +1,14 @@
+#!/usr/bin/python3
+import subprocess as sp
+
+
+process1 = sp.Popen(['cat'], stdout=sp.PIPE, stderr=sp.PIPE)
+process2 = sp.Popen(['/challenge/embryoio_level58'], stdin=process1.stdout, stdout=sp.PIPE)
+r, e = process2.communicate()
+print(r.decode())
+
+
+
+
+
+pwn.college{wW9BPtQW1XkYzNCnLepJ2NI9BbJ.QX4UDL1gjM1QzW}
