@@ -1,0 +1,11 @@
+import pwn
+pwn.context.update(arch="amd64")
+code = pwn.asm("""
+xor rax, rax
+mov al, [0x404000]
+""" )
+process = pwn.process("/challenge/run")
+process.write(code)
+print(process.readall())
+
+pwn.college{IyZtuqz_AmvA0Z5SGbSrHW24znh.dRTM4MDL1gjM1QzW}
