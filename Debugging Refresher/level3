@@ -1,0 +1,16 @@
+(gdb) x/16gx $rsp
+0x7ffd49b88ff0: 0x0000000000000002      0x00007ffd49b89138
+0x7ffd49b89000: 0x00007ffd49b89128      0x000000019df62d10
+0x7ffd49b89010: 0x0000000000000000      0x54b81f4ab78d4dee
+0x7ffd49b89020: 0x00007ffd49b89120      0x7e06b53c3448f600
+0x7ffd49b89030: 0x0000000000000000      0x00007f2e77eab083
+0x7ffd49b89040: 0x00007f2e780b1620      0x00007ffd49b89128
+0x7ffd49b89050: 0x0000000100000000      0x000055a89df62aa6
+0x7ffd49b89060: 0x000055a89df62d10      0xcea66e00a57219fe
+(gdb) c
+Continuing.
+Random value: 54b81f4ab78d4dee
+You input: 54b81f4ab78d4dee
+The correct answer is: 54b81f4ab78d4dee
+You win! Here is your flag:
+pwn.college{wSZSOfHkWXCKT8B_XsT4b_gbL7P.0lN0IDL1gjM1QzW}
